@@ -1,0 +1,102 @@
+/* .grow-list {
+  display: block;
+} */
+html {
+  background-color: black;
+}
+body {
+  background-color: #fff;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 4% 5%;
+  font-family: "Poppins";
+  height: 100vh;
+}
+.navbar-container {
+  display: inline-block;
+}
+.navbar-container img {
+  /* margin-top: 10px; */
+  width: 80px;
+}
+
+.grow-list {
+  position: absolute;
+  display: inline-block;
+  /* text-align: center; */
+  width: 50%;
+  top: 7%;
+  left: 25%;
+}
+.list-item {
+  display: inline-block;
+  padding-right: 15px;
+  font-size: smaller;
+  color: rgb(107, 107, 107);
+}
+
+/* ul li active {
+  background-color: #4caf50;
+  color: white;
+} */
+
+ul li:hover {
+  color: black;
+  font-weight: 25px;
+}
+
+.button-group {
+  position: absolute;
+  display: inline;
+  /* float: right; */
+  top: 9%;
+  right: 20%;
+}
+button {
+  background-color: #5955b3;
+  color: #fff;
+  border: none;
+  font-size: 11px;
+}
+.nav-button {
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.banner-container {
+  margin-top: 9%;
+  display: inline-block;
+}
+.heading-text,
+.description,
+.btn {
+  position: relative;
+  display: block;
+  width: 50%;
+}
+.heading-text {
+  font-size: 40px;
+  line-height: 2.7rem;
+  color: #3c2f60;
+}
+.description {
+  font-size: 10px;
+  width: 30%;
+}
+div > h1 > span {
+  color: #5c58b5;
+}
+.btn {
+  /* position: relative; */
+  /* display: block; */
+  margin-top: 10%;
+  width: fit-content;
+  padding: 15px 30px;
+}
+.banner-container img {
+  position: absolute;
+  display: block;
+  width: 500px;
+  right: 15%;
+  top: 150px;
+}
